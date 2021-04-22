@@ -55,20 +55,22 @@ public class notification{
     schd.add("2-4:30pm");
 
   //Convert to object array
+  
   Object[] array = list.toArray();
   Object[] schedule = time.toArray();
    
   //Iterate and convert to desired type
+  
   for(Object o : list){
     String s = (String) o;
   System.out.println(s);
   }
   
     int choice = sc.nextInt();
-  //If user typed the department
  
-    
-      
+ //If user typed the department
+  
+  
       if(choice == 1) {
       System.out.println("You have chosen The Department of Biology. Please choose what professor and time you would prefer.");
       
@@ -159,6 +161,7 @@ public class notification{
       
      System.out.println("Which time would you prefer?" );
      int choice3 = sc.nextInt();
+     
      //If user typed time
       
       if( choice3 == 1){

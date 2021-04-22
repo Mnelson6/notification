@@ -10,7 +10,8 @@ public class notification{
          
     System.out.println("What departments in the School of Natural Science & Mathematics would you like to chat in?");
 
-// Creating the list
+//Creating the list
+
     ArrayList<String> list = new ArrayList<String>();
     list.add("1-Biology");
     list.add("2-Chemistry");

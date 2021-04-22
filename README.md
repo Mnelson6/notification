@@ -3,8 +3,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class notification{
-    
-  public static void main(String[] args){
+public static void main(String[] args){
 
     Scanner sc = new Scanner(System.in);
          
@@ -70,8 +69,7 @@ public class notification{
  
  //If user typed the department
   
-  
-      if(choice == 1) {
+    if(choice == 1) {
       System.out.println("You have chosen The Department of Biology. Please choose what professor and time you would prefer.");
       
       String professor1 = time.get(0);
@@ -175,9 +173,6 @@ public class notification{
       }
       
       
-      
-     
-  }
-    
-     }
+   }
+}
       
